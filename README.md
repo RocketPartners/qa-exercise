@@ -17,14 +17,14 @@ This tiny application have a few features including:
 ## Steps
 
 1. Ensure you have Google Chrome installed. Otherwise, you'll need to reconfigure Cypress to work with your browser of choice.
-2. Clone the application `git clone {TODO}`
-3. Install dependencies `npx install`
-   - Need `npx`? Install from [NodeJs.org](https://nodejs.org/en/download/)
-4. Run `npx run start` and examine the application
+2. Clone the application `git clone https://github.com/RocketPartners/qa-exercise.git`
+3. Install dependencies `npm install`
+   - Need `npm`? Install from [NodeJs.org](https://nodejs.org/en/download/)
+4. Run `npm run start` and examine the application
 5. Write tests using Cypress for the application
    - See `cypress/integration/spec.js`
    - Reference the Cypress [documentation](https://docs.cypress.io/guides/overview/why-cypress)
-6. Validate your tests running `npx run cypress`
+6. Validate your tests running `npm run cypress`
 7. Email a plaintext file of `spec.js` to `brett@rocketpartners.io`
    - If you make additional changes to the project, please submit a zip file of the project instead
 
